@@ -38,11 +38,12 @@
       <option value="Florida">Florida</option>
     </select>
   </div>
-  <div class="col-md-2">
+  <div class="col-md-6">
     <label for="phone" class="form-label">Phone</label>
     <input type="tel" class="form-control" id="phone" name="phone" pattern="[0-9]{10}" required>
+    <small>Max 10 digits</small>
   </div>
-  <div class="col-md-2">
+  <div class="col-md-6">
     <label for="email" class="form-label">Email</label>
     <input type="email" class="form-control" id="email" name="email" required>
   </div>

@@ -7,5 +7,5 @@
 </head>
 <body>
 <div class="container-fluid"> 
-    <div class="row"> 
+    <div class="row" style="justify-content: center;"> 
         <h1 style="text-align:center">PHP TEST </h1>
