@@ -1,3 +1,10 @@
+<?php 
+session_start(); 
+include "inc/db.php";
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,5 +13,5 @@
 </head>
 <body>
 <div class="container-fluid"> 
-    <div class="row"> 
+    <div class="row" style="justify-content: center;"> 
         <h1 style="text-align:center">PHP TEST </h1>
